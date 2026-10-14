@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?ttyle=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Local-Edge-Model-Deployment-Systems/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Local-Edge-Model-Deployment-Systems?style=flat-square&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Local-Edge-Model-Deployment-Systems/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Local-Edge-Model-Deployment-Systems?style=flat-square&color=gold" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Local-Edge-Model-Deployment-Systems/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Local-Edge-Model-Deployment-Systems?style=flat-square&color=blue" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Local-Edge-Model-Deployment-Systems/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Local-Edge-Model-Deployment-Systems/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a>
@@ -78,85 +78,85 @@ Every open-source project below provides community-driven code for compiling, qu
 
 > *Sorted descending by GitHub stargazer count.*
 
-1. **[Ollama](https://github.com/ollama/ollama)** [![GitHub stars](https://img.shields.io/github/stars/ollama/ollama?style=social&color=white)](https://github.com/ollama/ollama/stargazers)  
+1. **[Ollama](https://github.com/ollama/ollama)** [![GitHub_Stars](https://img.shields.io/github/stars/ollama/ollama?style=social&color=white)](https://github.com/ollama/ollama/stargazers)  
    **The premier tool for local model management and serving.** Pull models via simple CLI commands (`ollama run llama3.3`), expose an OpenAI-compatible REST API at `localhost:11434`, and customize models with standard Modelfiles. Cross-platform acceleration across macOS (Metal), Windows/Linux (CUDA, ROCm). MIT licensed.
 
-2. **[Open WebUI](https://github.com/open-webui/open-webui)** [![GitHub stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social&color=white)](https://github.com/open-webui/open-webui/stargazers)  
+2. **[Open WebUI](https://github.com/open-webui/open-webui)** [![GitHub_Stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social&color=white)](https://github.com/open-webui/open-webui/stargazers)  
    **Feature-rich, self-hosted web UI for local and edge LLMs.** Acts as a responsive frontend for Ollama and OpenAI-compatible inference servers, featuring integrated document RAG, voice interaction, granular role-based access control, and pipeline extensions. MIT licensed.
 
-3. **[llama.cpp](https://github.com/ggerganov/llama.cpp)** [![GitHub stars](https://img.shields.io/github/stars/ggerganov/llama.cpp?style=social&color=white)](https://github.com/ggerganov/llama.cpp/stargazers)  
+3. **[llama.cpp](https://github.com/ggerganov/llama.cpp)** [![GitHub_Stars](https://img.shields.io/github/stars/ggerganov/llama.cpp?style=social&color=white)](https://github.com/ggerganov/llama.cpp/stargazers)  
    **The foundational C/C++ inference engine for quantized LLMs.** Created by Georgi Gerganov, it pioneered the GGUF model format with minimal third-party dependencies. Features SIMD CPU acceleration (AVX2, AVX-512, ARM NEON) and GPU offloading (CUDA, Metal, Vulkan, ROCm, SYCL). MIT licensed.
 
-4. **[vLLM](https://github.com/vllm-project/vllm)** [![GitHub stars](https://img.shields.io/github/stars/vllm-project/vllm?style=social&color=white)](https://github.com/vllm-project/vllm/stargazers)  
+4. **[vLLM](https://github.com/vllm-project/vllm)** [![GitHub_Stars](https://img.shields.io/github/stars/vllm-project/vllm?style=social&color=white)](https://github.com/vllm-project/vllm/stargazers)  
    **High-throughput serving engine for production inference.** Features PagedAttention to eliminate memory fragmentation in KV caches, continuous batching, chunked prefill, and speculative decoding. Scales from single consumer GPUs to multi-node clusters. Apache 2.0 licensed.
 
-5. **[GPT4All](https://github.com/nomic-ai/gpt4all)** [![GitHub stars](https://img.shields.io/github/stars/nomic-ai/gpt4all?style=social&color=white)](https://github.com/nomic-ai/gpt4all/stargazers)  
+5. **[GPT4All](https://github.com/nomic-ai/gpt4all)** [![GitHub_Stars](https://img.shields.io/github/stars/nomic-ai/gpt4all?style=social&color=white)](https://github.com/nomic-ai/gpt4all/stargazers)  
    **Local AI ecosystem for consumer hardware.** Maintained by Nomic AI, providing a cross-platform desktop GUI alongside Python and TypeScript bindings. Includes a curated library of pre-quantized models runnable entirely offline on consumer CPUs and GPUs. MIT licensed.
 
-6. **[PrivateGPT](https://github.com/zylon-ai/private-gpt)** [![GitHub stars](https://img.shields.io/github/stars/zylon-ai/private-gpt?style=social&color=white)](https://github.com/zylon-ai/private-gpt/stargazers)  
+6. **[PrivateGPT](https://github.com/zylon-ai/private-gpt)** [![GitHub_Stars](https://img.shields.io/github/stars/zylon-ai/private-gpt?style=social&color=white)](https://github.com/zylon-ai/private-gpt/stargazers)  
    **Production-ready offline RAG pipeline.** Built to query documents using 100% local LLMs and embeddings with zero data leakage. Compatible with llama.cpp, Ollama, and LocalAI backends. Apache 2.0 licensed.
 
-7. **[Whisper.cpp](https://github.com/ggerganov/whisper.cpp)** [![GitHub stars](https://img.shields.io/github/stars/ggerganov/whisper.cpp?style=social&color=white)](https://github.com/ggerganov/whisper.cpp/stargazers)  
+7. **[Whisper.cpp](https://github.com/ggerganov/whisper.cpp)** [![GitHub_Stars](https://img.shields.io/github/stars/ggerganov/whisper.cpp?style=social&color=white)](https://github.com/ggerganov/whisper.cpp/stargazers)  
    **High-performance C/C++ port of OpenAI's Whisper speech recognition model.** Delivers real-time on-device audio transcription on Raspberry Pi, iOS, Android, and consumer laptops with zero external dependencies. MIT licensed.
 
-8. **[LocalAI](https://github.com/mudler/LocalAI)** [![GitHub stars](https://img.shields.io/github/stars/mudler/LocalAI?style=social&color=white)](https://github.com/mudler/LocalAI/stargazers)  
+8. **[LocalAI](https://github.com/mudler/LocalAI)** [![GitHub_Stars](https://img.shields.io/github/stars/mudler/LocalAI?style=social&color=white)](https://github.com/mudler/LocalAI/stargazers)  
    **Free, open-source drop-in OpenAI REST API replacement.** Runs LLMs, image generation (Stable Diffusion), audio transcription (Whisper), and embeddings locally without requiring GPUs. Supports multiple backends (llama.cpp, vLLM, Diffusers). MIT licensed.
 
-9. **[Exo](https://github.com/exo-explore/exo)** [![GitHub stars](https://img.shields.io/github/stars/exo-explore/exo?style=social&color=white)](https://github.com/exo-explore/exo/stargazers)  
+9. **[Exo](https://github.com/exo-explore/exo)** [![GitHub_Stars](https://img.shields.io/github/stars/exo-explore/exo?style=social&color=white)](https://github.com/exo-explore/exo/stargazers)  
    **Distributed cluster orchestrator for everyday hardware.** Pools phones, laptops, and mini-PCs into a unified computing cluster using peer-to-peer ring topology and dynamic tensor/pipeline model partitioning. GPL-3.0 licensed.
 
-10. **[text-generation-webui](https://github.com/oobabooga/text-generation-webui)** [![GitHub stars](https://img.shields.io/github/stars/oobabooga/text-generation-webui?style=social&color=white)](https://github.com/oobabooga/text-generation-webui/stargazers)  
+10. **[text-generation-webui](https://github.com/oobabooga/text-generation-webui)** [![GitHub_Stars](https://img.shields.io/github/stars/oobabooga/text-generation-webui?style=social&color=white)](https://github.com/oobabooga/text-generation-webui/stargazers)  
     **The classic Gradio-based powerhouse web UI for LLMs.** Supports multiple inference backends simultaneously, including Transformers, llama.cpp, ExLlamaV2, and AutoAWQ, with extensive parameter tuning and LoRA extension support. AGPL-3.0 licensed.
 
-11. **[Jan](https://github.com/janhq/jan)** [![GitHub stars](https://img.shields.io/github/stars/janhq/jan?style=social&color=white)](https://github.com/janhq/jan/stargazers)  
+11. **[Jan](https://github.com/janhq/jan)** [![GitHub_Stars](https://img.shields.io/github/stars/janhq/jan?style=social&color=white)](https://github.com/janhq/jan/stargazers)  
     **Open-source ChatGPT alternative that runs offline on your machine.** Clean desktop interface with local model downloads, hardware usage monitoring, customizable system prompts, and an integrated local HTTP server powered by `nitro`. AGPL-3.0 licensed.
 
-12. **[Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat)** [![GitHub stars](https://img.shields.io/github/stars/chatchat-space/Langchain-Chatchat?style=social&color=white)](https://github.com/chatchat-space/Langchain-Chatchat/stargazers)  
+12. **[Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat)** [![GitHub_Stars](https://img.shields.io/github/stars/chatchat-space/Langchain-Chatchat?style=social&color=white)](https://github.com/chatchat-space/Langchain-Chatchat/stargazers)  
     **Complete local knowledge base Q&amp;A framework.** Combines LangChain with local LLMs and embedding models to deliver secure, enterprise-grade on-premise document search and agent workflows. Apache 2.0 licensed.
 
-13. **[SGLang](https://github.com/sgl-project/sglang)** [![GitHub stars](https://img.shields.io/github/stars/sgl-project/sglang?style=social&color=white)](https://github.com/sgl-project/sglang/stargazers)  
+13. **[SGLang](https://github.com/sgl-project/sglang)** [![GitHub_Stars](https://img.shields.io/github/stars/sgl-project/sglang?style=social&color=white)](https://github.com/sgl-project/sglang/stargazers)  
     **High-performance structured generation framework.** Accelerates complex LLM workflows via RadixAttention (automatic KV cache reuse across multiple calls), speculative decoding, and native JSON schema output enforcement. Apache 2.0 licensed.
 
-14. **[tinygrad](https://github.com/tinygrad/tinygrad)** [![GitHub stars](https://img.shields.io/github/stars/tinygrad/tinygrad?style=social&color=white)](https://github.com/tinygrad/tinygrad/stargazers)  
+14. **[tinygrad](https://github.com/tinygrad/tinygrad)** [![GitHub_Stars](https://img.shields.io/github/stars/tinygrad/tinygrad?style=social&color=white)](https://github.com/tinygrad/tinygrad/stargazers)  
     **Extremely minimal deep learning framework by George Hotz.** Compiles tensor operations into raw C/OpenCL/Metal/CUDA kernels in under 10,000 lines of code, offering a lightweight alternative for edge training and inference. MIT licensed.
 
-15. **[MLX](https://github.com/ml-explore/mlx)** [![GitHub stars](https://img.shields.io/github/stars/ml-explore/mlx?style=social&color=white)](https://github.com/ml-explore/mlx/stargazers)  
+15. **[MLX](https://github.com/ml-explore/mlx)** [![GitHub_Stars](https://img.shields.io/github/stars/ml-explore/mlx?style=social&color=white)](https://github.com/ml-explore/mlx/stargazers)  
     **Apple's native machine learning framework for Apple Silicon.** Delivers zero-overhead unified memory access across M-series CPU and GPU cores, providing record inference speeds for Llama, Mistral, and Qwen on Mac hardware. MIT licensed.
 
-16. **[llamafile](https://github.com/mozilla-ai/llamafile)** [![GitHub stars](https://img.shields.io/github/stars/mozilla-ai/llamafile?style=social&color=white)](https://github.com/mozilla-ai/llamafile/stargazers)  
+16. **[llamafile](https://github.com/mozilla-ai/llamafile)** [![GitHub_Stars](https://img.shields.io/github/stars/mozilla-ai/llamafile?style=social&color=white)](https://github.com/mozilla-ai/llamafile/stargazers)  
     **Run LLMs from a single self-contained executable.** Combines llama.cpp with Cosmopolitan Libc to package weights and inference code into a cross-platform polyglot binary runnable across Windows, macOS, Linux, and BSD. Apache 2.0 licensed.
 
-17. **[MLC LLM](https://github.com/mlc-ai/mlc-llm)** [![GitHub stars](https://img.shields.io/github/stars/mlc-ai/mlc-llm?style=social&color=white)](https://github.com/mlc-ai/mlc-llm/stargazers)  
+17. **[MLC LLM](https://github.com/mlc-ai/mlc-llm)** [![GitHub_Stars](https://img.shields.io/github/stars/mlc-ai/mlc-llm?style=social&color=white)](https://github.com/mlc-ai/mlc-llm/stargazers)  
     **Universal machine learning compiler for edge devices.** Uses Apache TVM to compile and optimize models across WebGPU (in-browser), iOS, Android, Linux, and Windows with native hardware shader compilation. Apache 2.0 licensed.
 
-18. **[candle](https://github.com/huggingface/candle)** [![GitHub stars](https://img.shields.io/github/stars/huggingface/candle?style=social&color=white)](https://github.com/huggingface/candle/stargazers)  
+18. **[candle](https://github.com/huggingface/candle)** [![GitHub_Stars](https://img.shields.io/github/stars/huggingface/candle?style=social&color=white)](https://github.com/huggingface/candle/stargazers)  
     **Minimalist ML framework written in pure Rust by Hugging Face.** Designed for serverless and resource-constrained edge deployments with zero Python runtime overhead and native WASM support. Apache 2.0 / MIT licensed.
 
-19. **[TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)** [![GitHub stars](https://img.shields.io/github/stars/NVIDIA/TensorRT-LLM?style=social&color=white)](https://github.com/NVIDIA/TensorRT-LLM/stargazers)  
+19. **[TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)** [![GitHub_Stars](https://img.shields.io/github/stars/NVIDIA/TensorRT-LLM?style=social&color=white)](https://github.com/NVIDIA/TensorRT-LLM/stargazers)  
     **NVIDIA's premier GPU inference optimization library.** Provides state-of-the-art fused multi-head attention kernels, FP8/INT4 quantization, in-flight batching, and multi-GPU tensor parallelism. Apache 2.0 licensed.
 
-20. **[LLM CLI](https://github.com/simonw/llm)** [![GitHub stars](https://img.shields.io/github/stars/simonw/llm?style=social&color=white)](https://github.com/simonw/llm/stargazers)  
+20. **[LLM CLI](https://github.com/simonw/llm)** [![GitHub_Stars](https://img.shields.io/github/stars/simonw/llm?style=social&color=white)](https://github.com/simonw/llm/stargazers)  
     **Modular CLI tool and Python library for running prompts and embeddings.** Created by Simon Willison, featuring an extensive plugin ecosystem supporting local llama.cpp, Ollama, and remote providers. Apache 2.0 licensed.
 
-21. **[OpenLLM](https://github.com/bentoml/OpenLLM)** [![GitHub stars](https://img.shields.io/github/stars/bentoml/OpenLLM?style=social&color=white)](https://github.com/bentoml/OpenLLM/stargazers)  
+21. **[OpenLLM](https://github.com/bentoml/OpenLLM)** [![GitHub_Stars](https://img.shields.io/github/stars/bentoml/OpenLLM?style=social&color=white)](https://github.com/bentoml/OpenLLM/stargazers)  
     **Operating system for open-source LLMs in production.** Maintained by BentoML to serve open-weight models with a single CLI command (`openllm start llama3`), built-in OpenAPI spec, and Docker compilation. Apache 2.0 licensed.
 
-22. **[KoboldCpp](https://github.com/LostRuins/koboldcpp)** [![GitHub stars](https://img.shields.io/github/stars/LostRuins/koboldcpp?style=social&color=white)](https://github.com/LostRuins/koboldcpp/stargazers)  
+22. **[KoboldCpp](https://github.com/LostRuins/koboldcpp)** [![GitHub_Stars](https://img.shields.io/github/stars/LostRuins/koboldcpp?style=social&color=white)](https://github.com/LostRuins/koboldcpp/stargazers)  
     **Easy single-file executable for GGUF model inference.** Bundles llama.cpp with a built-in browser UI, text adventure engine, and OpenAI-compatible API without needing Python or complex build toolchains. AGPL-3.0 licensed.
 
-23. **[Text Generation Inference (TGI)](https://github.com/huggingface/text-generation-inference)** [![GitHub stars](https://img.shields.io/github/stars/huggingface/text-generation-inference?style=social&color=white)](https://github.com/huggingface/text-generation-inference/stargazers)  
+23. **[Text Generation Inference (TGI)](https://github.com/huggingface/text-generation-inference)** [![GitHub_Stars](https://img.shields.io/github/stars/huggingface/text-generation-inference?style=social&color=white)](https://github.com/huggingface/text-generation-inference/stargazers)  
     **Hugging Face's production serving engine.** Engineered for high-load model serving with continuous batching, token streaming, FlashAttention, and tensor parallelism across multiple GPUs. Apache 2.0 licensed.
 
-24. **[PowerInfer](https://github.com/Tiiny-AI/PowerInfer)** [![GitHub stars](https://img.shields.io/github/stars/Tiiny-AI/PowerInfer?style=social&color=white)](https://github.com/Tiiny-AI/PowerInfer/stargazers)  
+24. **[PowerInfer](https://github.com/Tiiny-AI/PowerInfer)** [![GitHub_Stars](https://img.shields.io/github/stars/Tiiny-AI/PowerInfer?style=social&color=white)](https://github.com/Tiiny-AI/PowerInfer/stargazers)  
     **High-speed hybrid CPU/GPU inference engine.** Exploits neuron activation sparsity in LLMs, loading only "hot" neurons into GPU VRAM while streaming "cold" neurons through the CPU, enabling larger models on consumer graphics cards. MIT licensed.
 
-25. **[ExecuTorch](https://github.com/pytorch/executorch)** [![GitHub stars](https://img.shields.io/github/stars/pytorch/executorch?style=social&color=white)](https://github.com/pytorch/executorch/stargazers)  
+25. **[ExecuTorch](https://github.com/pytorch/executorch)** [![GitHub_Stars](https://img.shields.io/github/stars/pytorch/executorch?style=social&color=white)](https://github.com/pytorch/executorch/stargazers)  
     **PyTorch's official on-device edge runtime.** Provides a compact, portable execution engine for deploying PyTorch models to mobile phones (iOS, Android), microcontrollers, and edge NPUs with hardware delegate acceleration. BSD-3-Clause licensed.
 
-26. **[ExLlamaV2](https://github.com/turboderp-org/exllamav2)** [![GitHub stars](https://img.shields.io/github/stars/turboderp-org/exllamav2?style=social&color=white)](https://github.com/turboderp-org/exllamav2/stargazers)  
+26. **[ExLlamaV2](https://github.com/turboderp-org/exllamav2)** [![GitHub_Stars](https://img.shields.io/github/stars/turboderp-org/exllamav2?style=social&color=white)](https://github.com/turboderp-org/exllamav2/stargazers)  
     **Ultra-fast inference library optimized for consumer GPUs.** Features custom CUDA kernels and the proprietary EXL2 format (sub-4-bit quantization with variable bits per weight) for maximizing generation speed. MIT licensed.
 
-27. **[ONNX Runtime GenAI](https://github.com/microsoft/onnxruntime-genai)** [![GitHub stars](https://img.shields.io/github/stars/microsoft/onnxruntime-genai?style=social&color=white)](https://github.com/microsoft/onnxruntime-genai/stargazers)  
+27. **[ONNX Runtime GenAI](https://github.com/microsoft/onnxruntime-genai)** [![GitHub_Stars](https://img.shields.io/github/stars/microsoft/onnxruntime-genai?style=social&color=white)](https://github.com/microsoft/onnxruntime-genai/stargazers)  
     **Microsoft's generative AI execution engine.** Simplifies running local quantized models on Windows, Linux, and mobile hardware through DirectML, CUDA, and CPU execution providers. MIT licensed.
 
 ---
@@ -235,7 +235,7 @@ Contributions from the local AI and edge computing community are warmly encourag
 
 1. 🍴 **Fork the repository** on GitHub.
 2. 📝 **Add or update entries** in `README.md` (maintain tabular structure for SaaS and star-sorted order for open-source projects).
-3. 📌 **Include essential details**: Name, homepage/repo link, star badge, pricing/free tier limitations, and primary platform support.
+3. 📌 **Include essential details**: Name, homepage/repo link, Stars_Badge, pricing/free tier limitations, and primary platform support.
 4. 📬 **Submit a Pull Request** with a clear explanation of your additions.
 5. 🔗 For related curated awesome lists, check out [Awesome Awesome Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome).
 
